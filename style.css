@@ -69,13 +69,35 @@ body {
     max-width: 300px;
 }
 
+img{
+    border:3px solid;
+    border-radius: 8px;
+    border-color:indianred;
+}
+
 .bio-container{
     background-color: #E5e7eb;
     font: light italic;
-    font-size: 24px;
+    font-size: 20px;
     color: #1F2937;
     padding-left: 100px;
     padding-right: 100px;
+}
+
+.bio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+blockquote{
+    font-style: italic;
+}
+
+figcaption{
+    text-indent: 200px;
 }
 
 .bottom{
